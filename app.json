@@ -2,6 +2,11 @@
   "expo": {
     "name": "MyNewProject",
     "slug": "MyNewProject",
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +23,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.naveenreddye123.MyNewProject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e4f892cc-f665-4111-8db5-da41f36648e4"
+      }
     }
   }
 }
